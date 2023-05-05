@@ -1,11 +1,8 @@
 package graph
 
-import "github.com/mnogokotin/gqlgen-todos/graph/model"
-
-// This file will not be regenerated automatically.
-//
-// It serves as dependency injection for your app, add any dependencies you require here.
+import "github.com/mnogokotin/sbubnom-backend/graph/model"
 
 type Resolver struct {
-	todos []*model.Todo
+	questions []*model.Question
+	choices   []*model.Choice
 }
